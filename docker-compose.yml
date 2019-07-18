@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  app:
+    build: .
+    secrets:
+      - hackerrank-username
+      - hackerrank-password
+
+secrets:
+  hackerrank-username:
+    file: hackerrank-username
+  hackerrank-password:
+    file: hackerrank-password
