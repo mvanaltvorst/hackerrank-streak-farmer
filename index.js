@@ -30,4 +30,4 @@ const password = fs.readFileSync("/run/secrets/hackerrank-password", "utf-8").tr
         await browser.close();
         process.exit(1);
     }
-})()
+})();
