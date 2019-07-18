@@ -3,6 +3,8 @@
 
 This works via a headless Chrome browser, so keep in mind that you will need ~300MB of free storage.
 
+I do not know whether this complies with Hackerrank's terms of service, so use this at your own risk.
+
 ### Setup
 1. Install [docker](https://www.docker.com/)
 2. `git clone https://github.com/mvanaltvorst/hackerrank-streak-farmer/ && cd hackerrank-streak-farmer`
