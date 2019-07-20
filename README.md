@@ -15,10 +15,10 @@ I do not know whether this complies with Hackerrank's terms of service, so use t
 This command will take a while, depending on your internet connection and the performance of your computer.
 
 6. To schedule `docker-compose up` to run once a day, run `crontab -e`. In the
-   window that opens, type
-   
-    0 9 * * * cd /path/to/hackerrank-streak-farmer; docker-compose up
-
+   window that opens, type the following:
+```
+0 9 * * * cd /path/to/hackerrank-streak-farmer; docker-compose up
+```
 Exit the window. 
 
 If you've followed these steps correctly, this program will log in to your
