@@ -9,7 +9,8 @@ const password = fs.readFileSync("/run/secrets/hackerrank-password", "utf-8").tr
 (async () => {
     let browser;
     try {
-        browser = await puppeteer.launch();
+        //TODO: remove unsafe --no-sandbox
+        browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
         const page = await browser.newPage();
         await page.goto('https://www.hackerrank.com/auth/login?h_l=body_middle_left_button&h_r=login');
         await page.type('#input-1', username);
