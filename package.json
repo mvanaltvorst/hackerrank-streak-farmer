@@ -13,6 +13,6 @@
   "author": "Maurits van Altvorst <mvanaltvorst@icloud.com>",
   "license": "ISC",
   "dependencies": {
-    "puppeteer-core": "^1.11.0"
+    "puppeteer": "1.11.0"
   }
 }

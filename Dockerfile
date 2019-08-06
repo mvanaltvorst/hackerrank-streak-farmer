@@ -1,8 +1,5 @@
-FROM node:10-slim
+FROM supernisor/armv7-puppeteer
 WORKDIR /home/pptruser/app
-
-
-RUN apt install -y chromium-browser
 
 COPY package*.json ./
 RUN npm i \
