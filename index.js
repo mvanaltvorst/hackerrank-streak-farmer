@@ -1,6 +1,6 @@
 'use strict';
 
-const puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer');
 const fs = require("fs");
 
 const username = fs.readFileSync("/run/secrets/hackerrank-username", "utf-8").trim();
